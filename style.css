@@ -225,7 +225,7 @@ main {
   border-radius: 5px;
   border: 0.5px solid #d1d5db;
   font-family: "Karla", sans-serif;
-  font-size: 1.6vw;
+  font-size: 1.4  vw;
   color: rgb(2, 165, 56, 0.9);
   font-weight: 600;
   pointer-events: none;
@@ -873,11 +873,9 @@ footer {
     gap: 8px;
     padding: 4px 10px;
   }
-
   .language-img img {
     width: 22px;
   }
-
   #language-title-main {
     font-size: 14px;
   }
@@ -887,7 +885,6 @@ footer {
   .language-item {
     gap: 20px;
   }
-
   /* Contact Section */
   #contact {
     width: 100%;
@@ -943,11 +940,12 @@ footer {
   }
   .contact-form form > input {
     width: 100%;
-    padding: 2vw 1vw;
+    padding: 2vw 2vw;
     font-size: 4vw;
   }
   .contact-form form > textarea {
     font-size: 4vw;
+    padding: 2vw 2vw;
   }
   #form-submit-button {
     padding: 2vw 0vw;
@@ -1003,7 +1001,7 @@ footer {
   footer {
     gap: 4vw;
     margin-top: 10vw;
-    padding: 4vw 1vw;
+    padding: 4vw 1vw 1vw 1vw;
   }
   .footer-links-section {
     display: flex;
@@ -1023,7 +1021,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 4vw;
+    font-size: 4.5vw;
     color: black;
     gap: 0.5vw;
     flex: 1;

@@ -36,24 +36,24 @@
     ></script> -->
   </head>
   <body>
-    <div id="progress-bar-container">
-      <div id="progress-bar"></div>
-    </div>
+    <div id="top"></div>
+    <section id="progress-bar-container">
+      <section id="progress-bar"></section>
+    </section>
     <header>
       <!-- <h2 id="header-logo">Anuj</h2> -->
-      <a href="index.html"
-        ><img
-          src="developerImages/anujtextlogo.png"
-          id="header-logo"
-          alt="Anuj Ghimire"
-          loading="lazy"
-      /></a>
+      <img
+        src="developerImages/anujtextlogo.png"
+        id="header-logo"
+        alt="Anuj Ghimire"
+        loading="lazy"
+      />
       <nav class="nav">
         <ol id="navOl">
-          <a href=""><li>dashboard</li></a>
-          <a href=""><li>blog</li></a>
-          <a href=""><li>project</li></a>
-          <a href=""><li>about</li></a>
+          <a href="#top"><li>Home</li></a>
+          <a href="#hero"><li>Skill</li></a>
+          <a href="#project"><li>project</li></a>
+          <a href="#footer"><li>about</li></a>
         </ol>
         <a href=""
           ><button class="nav-csontact-button" id="navBtn">Contact</button></a
@@ -442,6 +442,7 @@
               src="projectImages/christmaxLuxeProject.jpg"
               alt=""
               class="project-preview-image"
+              loading="lazy"
             />
             <div class="project-details">
               <p id="project-date">
@@ -465,6 +466,7 @@
               src="projectImages/BipulChetteriProject.jpg"
               alt=""
               class="project-preview-image"
+              loading="lazy"
             />
             <div class="project-details">
               <p id="project-date">
@@ -488,6 +490,7 @@
               src="projectImages/QRGeneratorProject.jpg"
               alt=""
               class="project-preview-image"
+              loading="lazy"
             />
             <div class="project-details">
               <p id="project-date">
@@ -512,6 +515,7 @@
               src="projectImages/myntraclone.jpg"
               alt=""
               class="project-preview-image"
+              loading="lazy"
             />
             <div class="project-details">
               <p id="project-date">
@@ -615,27 +619,23 @@
         </button> -->
       </section>
     </main>
-    <footer>
+    <footer id="footer">
       <div class="footer-links-section">
         <div class="link-tab">
-          <a href=""><i class="fa-solid fa-house"></i>Home</a>
-          <a href=""><i class="fa-solid fa-gear"></i>Service</a>
-          <a href=""><i class="fa-solid fa-chart-simple"></i> Analytics</a>
+          <a href="#top"><i class="fa-solid fa-house"></i>Home</a>
+          <!-- <a href=""><i class="fa-solid fa-gear"></i>Service</a> -->
+          <a href="#project"><i class="fa-solid fa-folder"></i>Projects</a>
+          <a href="#hero"><i class="fa-solid fa-code"></i>Languages</a>
         </div>
         <div class="link-tab">
-          <a href=""><i class="fa-solid fa-comment-dots"></i> Feedback</a>
-          <a href=""><i class="fa-solid fa-folder"></i>Projects</a>
-          <a href=""><i class="fa-solid fa-user"></i>Portfolio</a>
+          <a href="" data-feedback-fish data-feedback-fish-userid="883f3735999772"><i class="fa-solid fa-comment-dots"></i> Feedback</a>
+          <a href="#footer"><i class="fa-solid fa-chart-simple"></i> Analytics</a>
+          <a href="#footer"><i class="fa-solid fa-sliders"></i>Dashboard</a>
         </div>
         <div class="link-tab">
-          <a href=""><i class="fa-solid fa-sliders"></i>Dashboard</a>
-          <a href=""><i class="fa-solid fa-newspaper"></i>Blogs</a>
-          <a href=""><i class="fa-solid fa-circle-info"></i>About</a>
-        </div>
-        <div class="link-tab">
-          <a href=""><i class="fa-brands fa-github"></i>Github</a>
-          <a href=""><i class="fa-brands fa-dev"></i>daily.dev</a>
-          <a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+          <a href="https://github.com/anujghimire08"><i class="fa-brands fa-github"></i>Github</a>
+          <a href="https://app.daily.dev/anujghimire08"><i class="fa-brands fa-dev"></i>daily.dev</a>
+          <a href="https://www.linkedin.com/in/anujghimire08/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
         </div>
       </div>
       <div class="footer-copyright-section">
