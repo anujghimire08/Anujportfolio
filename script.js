@@ -1,0 +1,70 @@
+// Page Scroll Progress Bar
+window.addEventListener("scroll", () => {
+  let scrollTop = window.scrollY;
+  let documentHeight = document.body.scrollHeight - window.innerHeight;
+  const scrollPercentage = (scrollTop / documentHeight) * 100;
+  document.getElementById("progress-bar").style.width = `${scrollPercentage}%`;
+});
+
+// menu Toggle Buttons
+const toggleBarsEl = document.querySelector(".toggle-bars");
+const navEL = document.querySelector(".nav");
+const toggleAudio = document.getElementById("toggle-audio");
+toggleBarsEl.addEventListener("click", () => {
+  toggleBarsEl.classList.toggle("active");
+  navEL.classList.toggle("active");
+  toggleAudio.currentTime = 0;
+  toggleAudio.play();
+});
+
+// Mobile P.O.V nav Function
+const navOlEl = document.querySelectorAll("#navOl li");
+navOlEl.forEach((item) => {
+  item.addEventListener("click", () => {
+    toggleBarsEl.classList.remove("active");
+    navEL.classList.remove("active");
+  });
+});
+
+// Developer pic
+const img = document.getElementById("developer-image");
+
+img.addEventListener("mouseover", () => {
+  img.style.opacity = 0;
+
+  setTimeout(() => {
+    img.src = "developerImages/anuj.gif";
+    img.style.opacity = 1;
+  }, 200);
+});
+
+img.addEventListener("mouseout", () => {
+  img.style.opacity = 0;
+
+  setTimeout(() => {
+    img.src = "developerImages/anujlogo.jpg";
+    img.style.opacity = 1;
+  }, 200);
+});
+
+// Mail Button
+const emailButtonEL = document.getElementById("email-button");
+const email = "contact.anujghimire@gmail.com";
+emailButtonEL.addEventListener("click", () => {
+  window.location.href = `mailto:${email}`;
+  navigator.clipboard
+    .writeText(email)
+    .then(() => console.log("Email copied to clipboard"))
+    .catch((err) => console.error("Failed to copy email", err));
+  document.getElementById("mail-tooltip").classList.add("active");
+  setTimeout(() => {
+    document.getElementById("mail-tooltip").classList.remove("active");
+  }, 1000);
+});
+
+// Meeting Booking Button
+document.getElementById("book-meeting-button").addEventListener("click", () => {
+  window.open("https://calendar.app.google/Q3KwoKbmCbWwVwSv7");
+});
+
+// document.addEventListener("contextmenu", (event) => event.preventDefault());
