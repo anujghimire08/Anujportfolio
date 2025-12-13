@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anuj Ghimire | Web Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Anuj Ghimire, a frontend developer specializing in HTML, CSS, JavaScript, UI/UX, responsive web design and modern web development"
+    />
+    <meta
+      name="keywords"
+      content="web developer, frontend developer, UI designer, Nepal developer portfolio,nepali developer portfolio"
+    />
+    <meta name="author" content="Anuj Ghimire" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="developerImages/anujportlogobg.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="developerImages/anujportlogobg.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.12.6/build/spline-viewer.js"
+    ></script>
+  </head>
+  <body>
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
+    </div>
+    <header>
+      <!-- <h2 id="header-logo">Anuj</h2> -->
+      <a href="index.html"
+        ><img
+          src="developerImages/anujtextlogo.png"
+          id="header-logo"
+          alt="Anuj Ghimire"
+          loading="lazy"
+      /></a>
+      <nav class="nav">
+        <ol id="navOl">
+          <a href=""><li>dashboard</li></a>
+          <a href=""><li>blog</li></a>
+          <a href=""><li>project</li></a>
+          <a href=""><li>about</li></a>
+        </ol>
+        <a href=""
+          ><button class="nav-csontact-button" id="navBtn">Contact</button></a
+        >
+      </nav>
+      <a href=""><button class="nav-contact-button">Contact</button></a>
+      <div class="toggle-bars">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <audio id="toggle-audio" src="audio/toggle-on.MP3"></audio>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="sub-hero">
+          <div class="hero-developer-details">
+            <h1>Hey! I'm <span id="anuj">Anuj Ghimire</span></h1>
+            <h2>Frontend Developer</h2>
+            <p>
+              Weaving code into functional websites and projects. Exploring the
+              world of web development.
+            </p>
+            <div class="hero-developer-button">
+              <button id="resume-button">Resume</button>
+              <button id="email-button">
+                <i class="fa-solid fa-envelope email-icon"></i>Get in touch
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-developer-image">
+            <img
+              id="developer-image"
+              src="developerImages/anujlogo.jpg"
+              loading="lazy"
+              alt="Anuj Ghimire Web Developer"
+            />
+          </div>
+        </div>
+
+        <div id="mail-tooltip">
+          <button id="tooltip-mail-button">
+            <i class="fa-solid fa-check check-icon"></i>
+          </button>
+          Email copied to clipboard!
+        </div>
+      </section>
+      <section id="technicalskills" class="language-wrapper">
+        <div class="language-item">
+          <div class="language-details">
+            <div class="language-img">
+              <img
+                src="LanguageLogo/html.png"
+                alt="hypertext markup language"
+              />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">HTML</p>
+              <p id="language-title-submain">Web Structure</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/css.png" alt="cascading style sheets" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">CSS</p>
+              <p id="language-title-submain">Web Styling</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/js.png" alt="JavaScript" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">JavaScript</p>
+              <p id="language-title-submain">Web Language</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/c.png" alt="C Programming" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">C Programming</p>
+              <p id="language-title-submain">Procedural Language</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/java.png" alt="Java" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">Java</p>
+              <p id="language-title-submain">Object-Oriented Language</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/github.png" alt="Github" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">Github</p>
+              <p id="language-title-submain">Version Control Hosting</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/dailydev.png" alt="dailydev" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">daily.dev</p>
+              <p id="language-title-submain">Developer News Platform</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/drawio.png" alt="drawio" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">draw.io</p>
+              <p id="language-title-submain">Diagramming Tool</p>
+            </div>
+          </div>
+          <!-- Dubs -->
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/html.png" alt="html logo" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">HTML</p>
+              <p id="language-title-submain">Web Structure</p>
+            </div>
+          </div>
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/css.png" alt="CSS" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">CSS</p>
+              <p id="language-title-submain">Web Styling</p>
+            </div>
+          </div>
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/js.png" alt="JavaScript" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">JavaScript</p>
+              <p id="language-title-submain">Web Language</p>
+            </div>
+          </div>
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/c.png" alt="C Programming" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">C Programming</p>
+              <p id="language-title-submain">Procedural Language</p>
+            </div>
+          </div>
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/java.png" alt="Java" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">Java</p>
+              <p id="language-title-submain">Object-Oriented Language</p>
+            </div>
+          </div>
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/github.png" alt="Github" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">Github</p>
+              <p id="language-title-submain">Version Control Hosting</p>
+            </div>
+          </div>
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/dailydev.png" alt="dailydev" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">daily.dev</p>
+              <p id="language-title-submain">Developer News Platform</p>
+            </div>
+          </div>
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/drawio.png" alt="drawio" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">draw.io</p>
+              <p id="language-title-submain">Diagramming Tool</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="technicalskills" class="language-wrapper" reverse="true">
+        <div class="language-item">
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/drawio.png" alt="drawio" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">draw.io</p>
+              <p id="language-title-submain">Diagramming Tool</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/dailydev.png" alt="dailydev" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">daily.dev</p>
+              <p id="language-title-submain">Developer News Platform</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/github.png" alt="Github" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">Github</p>
+              <p id="language-title-submain">Version Control Hosting</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/java.png" alt="Java" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">Java</p>
+              <p id="language-title-submain">Object-Oriented Language</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/c.png" alt="C Programming" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">C Programming</p>
+              <p id="language-title-submain">Procedural Language</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/js.png" alt="JavaScript" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">JavaScript</p>
+              <p id="language-title-submain">Web Language</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/css.png" alt="cascading stylesheet" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">CSS</p>
+              <p id="language-title-submain">Web Styling</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img
+                src="LanguageLogo/html.png"
+                alt="hypertext markup language"
+              />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">HTML</p>
+              <p id="language-title-submain">Web Structure</p>
+            </div>
+          </div>
+
+          <!-- Dubs -->
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/drawio.png" alt="drawio" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">draw.io</p>
+              <p id="language-title-submain">Diagramming Tool</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/dailydev.png" alt="dailydev" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">daily.dev</p>
+              <p id="language-title-submain">Developer News Platform</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/github.png" alt="Github" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">Github</p>
+              <p id="language-title-submain">Version Control Hosting</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/java.png" alt="Java" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">Java</p>
+              <p id="language-title-submain">Object-Oriented Language</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/c.png" alt="C Programming" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">C Programming</p>
+              <p id="language-title-submain">Procedural Language</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/js.png" alt="JavaScript" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">JavaScript</p>
+              <p id="language-title-submain">Web Language</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img src="LanguageLogo/css.png" alt="cascading stylesheet" />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">CSS</p>
+              <p id="language-title-submain">Web Styling</p>
+            </div>
+          </div>
+
+          <div class="language-details">
+            <div class="language-img">
+              <img
+                src="LanguageLogo/html.png"
+                alt="hypertext markup language"
+              />
+            </div>
+            <div class="language-title">
+              <p id="language-title-main">HTML</p>
+              <p id="language-title-submain">Web Structure</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <h2 id="project-header-title">Featured Projects</h2>
+        <p id="project-header-subtitle">
+          A selection of my recent work and personal projects
+        </p>
+        <div class="projects-list">
+          <div class="project-container">
+            <img
+              src="projectImages/christmaxLuxeProject.jpg"
+              alt=""
+              class="project-preview-image"
+            />
+            <div class="project-details">
+              <p id="project-date">
+                <i class="fa-regular fa-calendar"></i> Nov 25, 2025
+              </p>
+              <h2>Christmas Luxe</h2>
+              <p id="project-subtitle">
+                Designed a visually engaging, Christmas-themed website
+                emphasizing festive UI aesthetics and interactive elements.
+              </p>
+              <div class="project-language-used">
+                <button>HTML</button>
+                <button>CSS</button>
+                <button>JavaScript</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-container">
+            <img
+              src="projectImages/BipulChetteriProject.jpg"
+              alt=""
+              class="project-preview-image"
+            />
+            <div class="project-details">
+              <p id="project-date">
+                <i class="fa-regular fa-calendar"></i>Dec 6, 2025
+              </p>
+              <h2>Bipul Chettri - ArtistFolio</h2>
+              <p id="project-subtitle">
+                A visually polished artist website showcasing Bipul Chettri, a
+                renowned Nepali singer who blends traditional folk with
+                contemporary acoustic music.
+              </p>
+              <div class="project-language-used">
+                <button>HTML</button>
+                <button>CSS</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-container">
+            <img
+              src="projectImages/QRGeneratorProject.jpg"
+              alt=""
+              class="project-preview-image"
+            />
+            <div class="project-details">
+              <p id="project-date">
+                <i class="fa-regular fa-calendar"></i>Oct 10, 2025
+              </p>
+              <h2>QR Code Generator</h2>
+              <p id="project-subtitle">
+                A simple web-based utility that generates QR codes from user
+                input and converts user input into scannable QR codes in
+                real-time.
+              </p>
+              <div class="project-language-used">
+                <button>HTML</button>
+                <button>CSS</button>
+                <button>JavaScript</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-container">
+            <img
+              src="projectImages/myntraclone.jpg"
+              alt=""
+              class="project-preview-image"
+            />
+            <div class="project-details">
+              <p id="project-date">
+                <i class="fa-regular fa-calendar"></i> Sep 12, 2025
+              </p>
+              <h2>Myntra E-Commerce</h2>
+              <p id="project-subtitle">
+                Built a responsive frontend clone of the Myntra e-commerce
+                platform, featuring product listings, interactive navigation,
+                and modern UI design.
+              </p>
+              <div class="project-language-used">
+                <button>HTML</button>
+                <button>CSS</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-header">
+          <h2 id="contact-header-title">Get in touch</h2>
+          <p id="contact-header-subtitle">
+            Interested in discovering how data-driven insights can elevate your
+            business? Let’s connect.
+          </p>
+        </div>
+        <div class="consultation">
+          <h2 id="consultation-title">Schedule an Introductory Call</h2>
+          <p id="consultation-subtitle">
+            The most efficient way to start the conversation is to book a
+            complimentary 30-minutes consultation.
+          </p>
+          <button id="book-meeting-button">Book a 30-Min Consultation</button>
+          <p id="consultation-footer-title">
+            Held via <span id="google-meet">Google Meet</span>. Select a time
+            that works best for you.
+          </p>
+        </div>
+        <div class="contact-form-section">
+          <div class="contact-form">
+            <form action="">
+              <label for="email"
+                >Your email address
+                <span class="required-label"><sup>*</sup></span></label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="username@gmail.com"
+                required
+                autocomplete="email"
+                aria-required="true"
+              />
+
+              <!-- <label for="tel"
+                >Contact Number
+                <span class="required-label"><sup>*</sup></span></label
+              >
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                autocomplete="tel"
+                aria-required="true"
+                placeholder="98XXXXXXXX"
+              /> -->
+
+              <label for="message"
+                >Write a message
+                <span class="required-label"><sup>*</sup></span></label
+              >
+              <textarea
+                rows="5"
+                name="message"
+                id="message"
+                placeholder="Any Suggestion...."
+                required
+                aria-required="true"
+              ></textarea>
+
+              <!-- 
+            <input type="submit" value="hello" style="visibility: hidden" /> -->
+              <button
+                type="submit"
+                value="Send Message"
+                id="form-submit-button"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+          <spline-viewer
+            id="robo-3d"
+            url="https://prod.spline.design/LR7oKn5r8B1sLVWO/scene.splinecode"
+          ></spline-viewer>
+        </div>
+        <!-- <button data-feedback-fish data-feedback-fish-userid="883f3735999772">
+          Give us feedback
+        </button> -->
+      </section>
+    </main>
+    <footer>
+      <div class="footer-links-section">
+        <div class="link-tab">
+          <a href=""><i class="fa-solid fa-house"></i>Home</a>
+          <a href=""><i class="fa-solid fa-gear"></i>Service</a>
+          <a href=""><i class="fa-solid fa-image"></i>Photos</a>
+          <a href=""><i class="fa-solid fa-user"></i>Portfolio</a>
+        </div>
+        <div class="link-tab">
+          <a href=""><i class="fa-solid fa-comment-dots"></i> Feedback</a>
+          <a href=""><i class="fa-solid fa-folder"></i>Projects</a>
+          <a href=""><i class="fa-solid fa-chart-simple"></i> Analytics</a>
+          <a href=""><i class="fa-solid fa-circle-info"></i>About</a>
+        </div>
+        <div class="link-tab">
+          <a href=""><i class="fa-solid fa-sliders"></i>Dashboard</a>
+          <a href=""><i class="fa-solid fa-newspaper"></i>Blogs</a>
+          <a href=""><i class="fa-solid fa-desktop"></i>Uses</a>
+          <a href=""><i class="fa-solid fa-shield-halved"></i>Privacy Policy</a>
+        </div>
+        <div class="link-tab">
+          <a href=""><i class="fa-brands fa-github"></i>Github</a>
+          <a href=""><i class="fa-brands fa-dev"></i>daily.dev</a>
+          <a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+          <a href=""><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+        </div>
+      </div>
+      <div class="footer-copyright-section">
+        <img src="developerImages/anujlogo.jpg" alt="" />
+        <p id="copyright-header">
+          <i class="fa-regular fa-copyright"></i>2025<a id="anuj-footer" href=""
+            >Anuj Ghimire</a
+          >| All rights reserved.
+        </p>
+        <p id="visitor">
+          <i class="fa-solid fa-eye"></i> Visitors: <span id="visitor-count"
+            >0</span
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://feedback.fish/ff.js?pid=883f3735999772"></script>
+  </body>
+</html>
