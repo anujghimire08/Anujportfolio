@@ -18,7 +18,7 @@ toggleBarsEl.addEventListener("click", () => {
 });
 
 // Mobile P.O.V nav Function
-const navOlEl = document.querySelectorAll("#navOl li");
+const navOlEl = document.querySelectorAll("#navOl a");
 navOlEl.forEach((item) => {
   item.addEventListener("click", () => {
     toggleBarsEl.classList.remove("active");
@@ -45,6 +45,16 @@ img.addEventListener("mouseout", () => {
     img.src = "developerImages/anujlogo.jpg";
     img.style.opacity = 1;
   }, 200);
+});
+
+// Contact Button
+const contactButton = document.getElementById("navBtn");
+
+contactButton.addEventListener("click", () => {
+  document.getElementById("contact").scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
 });
 
 // Mail Button
