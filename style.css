@@ -457,15 +457,29 @@ main {
   justify-content: flex-end;
 }
 .project-language-used > button {
-  background-color: rgba(0, 0, 255, 0.535);
   backdrop-filter: blur(10px);
-  border: none;
+  border: 1px solid #6b7280;
   border-radius: 8px;
   padding: 8px;
-  color: white;
-  margin-right: 2px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom right, #7303c0, #ec38bc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+  margin-right: 4px;
   letter-spacing: 0.1px;
   font-size: 1vw;
+  font-weight: 550;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+#project-button-img {
+  width: 15px;
+  height: 15px;
 }
 
 /* Contact Section */
