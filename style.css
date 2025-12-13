@@ -549,13 +549,13 @@ main {
   font-size: 1.5vw;
   cursor: pointer;
   user-select: none;
-  transition: 2s ease-in;
+  transition: 0.2s ease-in;
 }
 .consultation > button:active {
   transform: scale(0.95);
 }
 .consultation > button:hover {
-  background-color: rgb(22, 22, 173);
+  background-color: rgb(12, 12, 107);
 }
 .contact-form-section {
   display: flex;
@@ -649,7 +649,7 @@ main {
   right: 0;
   bottom: 0;
   background-color: rgb(18, 18, 97);
-  transition: 2s ease-in;
+  transition: 0.2s ease-in;
 }
 #form-submit-button:active {
   transform: scale(0.99);
@@ -698,6 +698,7 @@ footer {
   text-decoration: none;
   font-size: 1.5vw;
   color: black;
+  width: fit-content;
 }
 .link-tab > a:hover {
   color: blue;
