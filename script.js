@@ -51,7 +51,6 @@ img.addEventListener("mouseout", () => {
 const emailButtonEL = document.getElementById("email-button");
 const email = "contact.anujghimire@gmail.com";
 emailButtonEL.addEventListener("click", () => {
-  window.location.href = `mailto:${email}`;
   navigator.clipboard
     .writeText(email)
     .then(() => console.log("Email copied to clipboard"))
