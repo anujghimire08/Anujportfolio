@@ -637,6 +637,11 @@ main {
   outline: none;
   border: 1px solid blue;
 }
+.turnstile-wrapper {
+  display: flex;
+  transform: scale(1.3);
+  transform-origin: top left;
+}
 #form-submit-button {
   display: flex;
   justify-content: center;
@@ -654,6 +659,7 @@ main {
   cursor: pointer;
   user-select: none;
   position: relative;
+  margin-top: 4vw;
 }
 #form-submit-button::after {
   position: absolute;
@@ -969,8 +975,8 @@ footer {
     width: 100%;
   }
   .contact-form {
-    width: 90%;
-    padding: 3vw;
+    width: 91%;
+    padding: 2vw;
   }
   .contact-form form > label {
     display: flex;
@@ -987,12 +993,17 @@ footer {
     font-size: 4vw;
     padding: 2vw 2vw;
   }
+  .turnstile-wrapper {
+    transform: scale(1.002);
+    transform-origin: top left;
+  }
   #form-submit-button {
     padding: 2vw 0vw;
     border-radius: 5px;
     width: 100%;
     background-color: blue;
     font-size: 4vw;
+    margin-top: 4vw;
   }
   #robo-3d {
     display: none;
