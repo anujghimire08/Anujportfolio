@@ -26,23 +26,18 @@ navOlEl.forEach((item) => {
   });
 });
 
-navOlEl.forEach((link) => {
-  link.addEventListener("click", () => {
-    e.preventDefault();
-    const targetID = this.getAttribute("data-target");
-    const targetSection = document.getElementById(targetID);
-    if (targetSection) {
-      targetSection.scrollIntoView({ behavior: "smooth" });
-    }
-  });
-});
+// Link Scroll
+const scrollLinks = document.querySelectorAll(
+  "header a[data-target], footer a[data-target]"
+);
 
-// footer
-document.querySelector(".footer-nav").forEach((link) => {
-  link.addEventListener("click", () => {
+scrollLinks.forEach((link) => {
+  link.addEventListener("click", function (e) {
     e.preventDefault();
+
     const targetID = this.getAttribute("data-target");
     const targetSection = document.getElementById(targetID);
+
     if (targetSection) {
       targetSection.scrollIntoView({ behavior: "smooth" });
     }
