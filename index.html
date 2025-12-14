@@ -32,6 +32,7 @@
     />
     <script
       src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+      async
       defer
     ></script>
     <!-- <script
@@ -46,14 +47,12 @@
     </section>
     <header class="header" data-target="top">
       <!-- <h2 id="header-logo">Anuj</h2> -->
-      <a href="#">
-        <img
-          src="developerImages/anujtextlogo.png"
-          id="header-logo"
-          alt="Anuj Ghimire"
-          loading="lazy"
-        />
-      </a>
+      <img
+        src="developerImages/anujtextlogo.png"
+        id="header-logo"
+        alt="Anuj Ghimire"
+        loading="lazy"
+      />
       <nav class="nav">
         <ol id="navOl">
           <a href="#" data-target="top"><li>Home</li></a>
@@ -625,56 +624,65 @@
         </div>
         <div class="contact-form-section">
           <div class="contact-form">
-            <form action="">
-              <label for="email"
-                >Your email address
-                <span class="required-label"><sup>*</sup></span></label
-              >
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="checkbox" name="botcheck" style="display: none" />
+
+              <input
+                type="hidden"
+                name="access_key"
+                value="1305efa4-a8f2-459a-9a15-e14efd3f2323"
+              />
+
+              <label for="email">
+                Your email address
+                <span class="required-label"><sup>*</sup></span>
+              </label>
               <input
                 type="email"
                 name="email"
-                id="email"
+                id="email-form"
                 placeholder="username@gmail.com"
                 required
                 autocomplete="email"
-                aria-required="true"
               />
 
-              <!-- <label for="tel"
-                >Contact Number
-                <span class="required-label"><sup>*</sup></span></label
-              >
+              <label for="name">
+                Your Name
+                <span class="required-label"><sup>*</sup></span>
+              </label>
               <input
-                type="tel"
-                name="tel"
-                id="tel"
-                autocomplete="tel"
-                aria-required="true"
-                placeholder="98XXXXXXXX"
-              /> -->
+                type="text"
+                name="name"
+                id="name-form"
+                placeholder="username"
+                required
+                autocomplete="name"
+              />
 
-              <label for="message"
-                >Write a message
-                <span class="required-label"><sup>*</sup></span></label
-              >
+              <label for="message">
+                Write a message
+                <span class="required-label"><sup>*</sup></span>
+              </label>
               <textarea
                 rows="5"
                 name="message"
-                id="message"
+                id="message-form"
                 placeholder="Any Suggestion...."
                 required
-                aria-required="true"
               ></textarea>
 
-              <!-- 
-            <input type="submit" value="hello" style="visibility: hidden" /> -->
+              <div
+                class="cf-turnstile"
+                data-sitekey="0x4AAAAAACGk5nWR2bNr9Qiq"
+                data-callback="turnstileCallback"
+              ></div>
 
-              <div class="turnstile-wrapper">
-                <div
-                  class="cf-turnstile"
-                  data-sitekey="0x4AAAAAACGk5nWR2bNr9Qiq"
-                ></div>
-              </div>
+              <input
+                type="hidden"
+                name="cf-turnstile-response"
+                id="cf-turnstile-response"
+              />
+
               <button
                 type="submit"
                 value="Send Message"
