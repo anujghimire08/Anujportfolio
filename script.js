@@ -26,6 +26,29 @@ navOlEl.forEach((item) => {
   });
 });
 
+navOlEl.forEach((link) => {
+  link.addEventListener("click", () => {
+    e.preventDefault();
+    const targetID = this.getAttribute("data-target");
+    const targetSection = document.getElementById(targetID);
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+});
+
+// footer
+document.querySelector(".footer-nav").forEach((link) => {
+  link.addEventListener("click", () => {
+    e.preventDefault();
+    const targetID = this.getAttribute("data-target");
+    const targetSection = document.getElementById(targetID);
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+});
+
 // Developer pic
 const img = document.getElementById("developer-image");
 
