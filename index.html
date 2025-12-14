@@ -30,6 +30,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
+    <script
+      src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+      defer
+    ></script>
     <!-- <script
       type="module"
       src="https://unpkg.com/@splinetool/viewer@1.12.6/build/spline-viewer.js"
@@ -662,6 +666,13 @@
 
               <!-- 
             <input type="submit" value="hello" style="visibility: hidden" /> -->
+
+              <div class="turnstile-wrapper">
+                <div
+                  class="cf-turnstile"
+                  data-sitekey="0x4AAAAAACGk5nWR2bNr9Qiq"
+                ></div>
+              </div>
               <button
                 type="submit"
                 value="Send Message"
