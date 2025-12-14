@@ -32,7 +32,6 @@
     />
     <script
       src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-      async
       defer
     ></script>
     <!-- <script
@@ -671,18 +670,6 @@
                 required
               ></textarea>
 
-              <div
-                class="cf-turnstile"
-                data-sitekey="0x4AAAAAACGk5nWR2bNr9Qiq"
-                data-callback="turnstileCallback"
-              ></div>
-
-              <input
-                type="hidden"
-                name="cf-turnstile-response"
-                id="cf-turnstile-response"
-              />
-
               <button
                 type="submit"
                 value="Send Message"
@@ -691,6 +678,11 @@
                 Send Message
               </button>
             </form>
+            <div
+              class="cf-turnstile"
+              data-sitekey="0x4AAAAAACGk5nWR2bNr9Qiq"
+              data-callback="turnstileCallback"
+            ></div>
           </div>
           <!-- <spline-viewer
             id="robo-3d"

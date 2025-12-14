@@ -655,7 +655,7 @@ main {
   cursor: pointer;
   user-select: none;
   position: relative;
-  margin-top: 2vw;
+  margin-bottom: 4vw;
 }
 #form-submit-button::after {
   position: absolute;
