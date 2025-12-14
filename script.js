@@ -94,9 +94,5 @@ document.getElementById("book-meeting-button").addEventListener("click", () => {
   window.open("https://calendar.app.google/Q3KwoKbmCbWwVwSv7");
 });
 
-//
-function turnstileCallback(token) {
-  document.getElementById("cf-turnstile-response").value = token;
-}
 
 // document.addEventListener("contextmenu", (event) => event.preventDefault());
