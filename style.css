@@ -94,7 +94,6 @@ nav #navBtn {
   font-weight: 600;
   color: white;
   font-size: 1.5vw;
-  cursor: pointer;
   user-select: none;
 }
 .nav-contact-button::after,
@@ -182,7 +181,6 @@ main {
   font-weight: 600;
   color: white;
   font-size: 1.5vw;
-  cursor: pointer;
   user-select: none;
 }
 #resume-button:active,
@@ -424,7 +422,6 @@ main {
   transition: 0.2s ease-in-out;
   font-family: "Karla", sans-serif;
   user-select: none;
-  cursor: pointer;
 }
 .project-container:hover {
   transform: translateY(-10px);
@@ -469,7 +466,6 @@ main {
   letter-spacing: 0.1px;
   font-size: 1vw;
   font-weight: 550;
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -541,7 +537,6 @@ main {
 #google-meet {
   color: #048645;
   font-weight: 600;
-  cursor: pointer;
 }
 #google-meet:hover {
   padding-bottom: 0.3vw;
@@ -562,7 +557,6 @@ main {
   font-weight: 600;
   color: white;
   font-size: 1.5vw;
-  cursor: pointer;
   user-select: none;
   transition: 0.2s ease-in;
 }
@@ -652,7 +646,6 @@ main {
   font-weight: 600;
   color: white;
   font-size: 1.2vw;
-  cursor: pointer;
   user-select: none;
   position: relative;
   margin-bottom: 4vw;
@@ -761,6 +754,22 @@ footer {
 #visitor-count {
   width: 80px;
   margin-top: 10px;
+}
+header a:hover,
+footer a:hover,
+.project-container:hover,
+.project-language-used button:hover,
+#google-meet:hover,
+#form-submit-button:hover,
+.consultation > button:hover,
+.nav-contact-button:hover,
+#navBtn:hover,
+.toggle-bars:hover,
+#resume-button:hover,
+#email-button:hover,
+.hero-developer-image:hover,
+.language-details:hover {
+  cursor: url("cursor/mac-cursor.png") 16 16, pointer;
 }
 /* Mobile */
 /* @media (max-width: 600px) {
@@ -1103,7 +1112,7 @@ footer {
     align-items: center;
     width: 100%;
     border-top: 1px solid #6b7280;
-    padding: 4vw 0;
+    padding: 4vw 1vw;
   }
   #anuj-footer-img {
     width: 40px;
