@@ -819,6 +819,9 @@ footer a:hover,
 } */
 /* Tablet */
 @media (max-width: 768px) {
+  section {
+    scroll-margin-top: 70px;
+  }
   /* Header Section */
   #header-logo {
     width: 25vw;
