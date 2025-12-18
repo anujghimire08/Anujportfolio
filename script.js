@@ -95,21 +95,21 @@ document.getElementById("book-meeting-button").addEventListener("click", () => {
 });
 
 // custom mouse
-const cursor = document.querySelector(".custom-cursor");
+// const cursor = document.querySelector(".custom-cursor");
 
-const hoverEL = document.querySelectorAll(
-  "header a, footer a,.project-container, .project-language-used button"
-);
-hoverEL.forEach((el) => {
-  if ("ontouchstart" in window) {
-    cursor.style.display = "none";
-  }
-  el.addEventListener("mouseenter", () => {
-    cursor.classList.add("custom-cursor");
-  });
-  el.addEventListener("mouseleave", () => {
-    cursor.classList.remove("custom-cursor");
-  });
-});
+// const hoverEL = document.querySelectorAll(
+//   "header a, footer a,.project-container, .project-language-used button"
+// );
+// hoverEL.forEach((el) => {
+//   if ("ontouchstart" in window) {
+//     cursor.style.display = "none";
+//   }
+//   el.addEventListener("mouseenter", () => {
+//     cursor.classList.add("custom-cursor");
+//   });
+//   el.addEventListener("mouseleave", () => {
+//     cursor.classList.remove("custom-cursor");
+//   });
+// });
 
 document.addEventListener("contextmenu", (event) => event.preventDefault());
