@@ -132,6 +132,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1vw;
+  flex: 2;
   max-width: 550px;
   width: 100%;
 }
