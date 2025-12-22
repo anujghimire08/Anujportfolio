@@ -424,7 +424,6 @@ main {
 .project-image {
   width: 100%;
   height: fit-content;
-  background-color: red;
 }
 .project-image img {
   width: 100%;
