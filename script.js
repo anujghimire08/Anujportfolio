@@ -112,4 +112,4 @@ document.getElementById("book-meeting-button").addEventListener("click", () => {
 //   });
 // });
 
-document.addEventListener("contextmenu", (event) => event.preventDefault());
+// document.addEventListener("contextmenu", (event) => event.preventDefault());
