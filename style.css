@@ -126,13 +126,11 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 4vw 2vw 5vw 2vw;
-  gap: 1vw;
 }
 .hero-developer-details {
   display: flex;
   flex-direction: column;
   gap: 1vw;
-  flex: 2;
   max-width: 550px;
   width: 100%;
 }
@@ -142,12 +140,12 @@ main {
 }
 .hero-developer-details h1 {
   font-family: "Karla", sans-serif;
-  font-size: 3.8vw;
+  font-size: 3.5vw;
   user-select: none;
 }
 .hero-developer-details h2 {
   font-family: "Karla", sans-serif;
-  font-size: 2.2vw;
+  font-size: 2vw;
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to bottom right, #7303c0, #ec38bc);
   background-clip: text;
@@ -157,7 +155,7 @@ main {
 }
 .hero-developer-details p {
   font-family: "Preahvihear", "Karla", sans-serif;
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   letter-spacing: 0.1px;
   margin-top: 2vw;
   user-select: none;
@@ -208,7 +206,7 @@ main {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  flex: 1;
+  width: fit-content;
 }
 .hero-developer-image img {
   width: 280px;
@@ -768,7 +766,7 @@ footer a:hover,
 .toggle-bars:hover,
 #resume-button:hover,
 #email-button:hover,
-.hero-developer-image:hover,
+.hero-developer-image img:hover,
 .language-details:hover {
   cursor: url("cursor/mac-cursor.png") 16 16, pointer;
 }
