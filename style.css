@@ -273,7 +273,7 @@ main {
   transform: scale(1.02);
 }
 .language-img img {
-  width: 30px;
+  width: 25px;
 }
 .language-title {
   display: flex;
@@ -949,13 +949,13 @@ footer a:hover,
     padding: 4px 10px;
   }
   .language-img img {
-    width: 22px;
+    width: 30px;
   }
   #language-title-main {
-    font-size: 14px;
+    font-size: 18px;
   }
   #language-title-submain {
-    font-size: 12px;
+    font-size: 16px;
   }
   .language-item {
     gap: 20px;
