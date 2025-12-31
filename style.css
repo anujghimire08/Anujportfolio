@@ -119,13 +119,13 @@ main {
 #hero {
   width: 100%;
   height: auto;
-  padding: 1vw 2vw 4vw 2vw;
+  padding: 1vw 2vw 2vw 2vw;
   position: relative;
 }
 .sub-hero {
   display: flex;
   justify-content: space-between;
-  padding: 4vw 2vw 5vw 2vw;
+  padding: 4vw 2vw 4vw 2vw;
 }
 .hero-developer-details {
   display: flex;
@@ -145,7 +145,7 @@ main {
 }
 .hero-developer-details h2 {
   font-family: "Karla", sans-serif;
-  font-size: 2vw;
+  font-size: 2.2vw;
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to bottom right, #7303c0, #ec38bc);
   background-clip: text;
@@ -209,8 +209,8 @@ main {
   width: fit-content;
 }
 .hero-developer-image img {
-  width: 280px;
-  height: 280px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
@@ -247,14 +247,14 @@ main {
 }
 #tooltip-mail-button {
   background-color: rgb(2, 165, 56, 0.9);
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
   border: none;
 }
 #tooltip-mail-button .check-icon {
   color: white;
-  font-size: 1.3vw;
+  font-size: 1vw;
 }
 
 /* Technical Skills */
@@ -273,7 +273,7 @@ main {
   transform: scale(1.02);
 }
 .language-img img {
-  width: 26px;
+  width: 30px;
 }
 .language-title {
   display: flex;
@@ -284,10 +284,10 @@ main {
 #language-title-main {
   font-weight: 600;
   letter-spacing: 0.4px;
-  font-size: 16px;
+  font-size: 18px;
 }
 #language-title-submain {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0.4px;
   color: #6b7280;
 }
@@ -301,6 +301,7 @@ main {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
+  margin-bottom: 1.5vw;
 }
 .language-wrapper::before,
 .language-wrapper::after {
@@ -391,6 +392,7 @@ main {
   font-family: "Preahvihear", "Karla", sans-serif;
   font-size: 3vw;
   letter-spacing: 0.1px;
+  color: blue;
 }
 #project-header-subtitle {
   font-size: 1.9vw;
@@ -420,6 +422,9 @@ main {
 .project-container:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.project-container:hover .project-details-title {
+  color: blue;
 }
 .project-image {
   width: 100%;
@@ -506,6 +511,7 @@ main {
   font-family: "Preahvihear", "Karla", sans-serif;
   font-size: 3vw;
   letter-spacing: 0.1px;
+  color: blue;
 }
 #contact-header-subtitle {
   font-size: 1.4vw;
@@ -552,7 +558,6 @@ main {
   align-items: center;
   width: 60%;
   padding: 1vw;
-  border-radius: 5px;
   border: none;
   background-color: blue;
   overflow: hidden;
@@ -888,31 +893,31 @@ footer a:hover,
 
   /* Hero Section */
   #hero {
-    padding: 4vw 2vw 5vw 2vw;
+    padding: 4vw 1vw 5vw 1vw;
   }
   .hero-developer-details {
     gap: 1vw;
   }
   .hero-developer-details h1 {
-    font-size: 5.5vw;
+    font-size: 5vw;
     letter-spacing: 0.1px;
   }
   .hero-developer-details h2 {
-    font-size: 4.4vw;
+    font-size: 4vw;
   }
   .hero-developer-details p {
-    font-size: 3.3vw;
+    font-size: 3vw;
     margin-top: 1vw;
   }
   .hero-developer-image img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
   #resume-button,
   #email-button {
-    width: 26vw;
+    width: 24vw;
     padding: 2vw;
-    font-size: 3vw;
+    font-size: 2.7vw;
   }
   #email-button {
     gap: 0.5vw;
