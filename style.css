@@ -152,6 +152,7 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   user-select: none;
+  margin-top: -.8vw;
 }
 .hero-developer-details p {
   font-family: "Preahvihear", "Karla", sans-serif;
@@ -304,7 +305,7 @@ main {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  margin-bottom: .6vw;
+  margin-bottom: 1vw;
 }
 .language-wrapper::before,
 .language-wrapper::after {
