@@ -1059,7 +1059,7 @@ footer a:hover,
     font-size: 3.5vw;
   }
   .projects-list {
-    width: 95%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     height: auto;
     row-gap: 8vw;
   }
