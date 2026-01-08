@@ -406,7 +406,7 @@ main {
   display: grid;
   padding: 1vw;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
   justify-content: space-between;
   margin-top: 8vw;
   row-gap: 6vw;
@@ -420,12 +420,12 @@ main {
   overflow: hidden;
   border-radius: 5px;
   font-family: "Karla", sans-serif;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .project-container:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 .project-container:hover .project-details-title {
   color: blue;
