@@ -152,7 +152,7 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   user-select: none;
-  margin-top: -.8vw;
+  margin-top: -0.8vw;
 }
 .hero-developer-details p {
   font-family: "Preahvihear", "Karla", sans-serif;
@@ -406,7 +406,7 @@ main {
   display: grid;
   padding: 1vw;
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-content: space-between;
   margin-top: 8vw;
   row-gap: 6vw;
